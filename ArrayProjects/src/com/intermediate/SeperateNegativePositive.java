@@ -27,7 +27,7 @@ public class SeperateNegativePositive {
 
 	//at the end:negative
 	static void shiftNegative2(int ar[]) {
-		for (int i = 1; i < ar.length; i++) {
+		for (int i = 0; i < ar.length; i++) {
 			for (int j = ar.length - 1; j >= 0; j--) {
 				if (ar[i] < 0 && i < j) {//if(ar[i]> &&i<j)->  shift negative element at the start
 					int temp = ar[j];
