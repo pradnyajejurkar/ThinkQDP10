@@ -30,8 +30,9 @@ public class FindEvenOddElement {
 	
 	public static void main(String[] args) {
 		
-		int arr[]= {78,85,56,45,25,77,88,66};
+		int arr[]= {1,2,3,4,5,6,7,8,9,10};
 		
+		//System.out.println();
 		findEvenOdd(arr);
 		
 		
