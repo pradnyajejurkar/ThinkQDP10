@@ -9,6 +9,12 @@ public class VaragsOverloading {
 		}
 	}
 
+	static void display(int a1)
+	{
+		System.out.println("In int single");
+		System.out.println(a1);
+	}
+	
 	static void display(double... d1) {
 		System.out.println("In double");
 		for (double x : d1) {
@@ -51,7 +57,13 @@ public class VaragsOverloading {
 	   
 	   //displayMe(60,20,30,80);
 	   displayMe('a', 4,5,2);
+	   displayMe(8, 's','f','e');
 	   
+	   
+	   System.out.println("---------------------------");
+	   show(4,5,6);
+	   
+	   display(3);
 	   
 
 	}

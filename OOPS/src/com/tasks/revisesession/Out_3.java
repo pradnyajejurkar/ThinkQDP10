@@ -4,8 +4,8 @@ public class Out_3 {
 	
 		public static void main(String args[]) {
 			Calculate c = new Display();
-			c.x = 0;
-			c.cal(5);
+			//c.x = 0;
+			//c.cal(5);
 			System.out.print(c.x);
 		}
 	}

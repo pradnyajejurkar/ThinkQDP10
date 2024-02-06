@@ -46,45 +46,45 @@ class Cricle extends Shape {
 
 }
 
-class Triangle extends Shape{
-	protected double height;
-	protected double width;
-	
-	public Triangle() {
-		
-	}
-	
-	
-	
-	public Triangle(double height, double width) {
-		super();
-		this.height = height;
-		this.width = width;
-	}
-
-
-
-	@Override
-	void calculateArea() {
-		double area=0.5*height*width;
-		System.out.println("Area of traingle is:"+area);
-		
-		
-	}
-
-	@Override
-	void calculatePerimeter() {
-		double peri=
-		
-	}
-	
-}
-
-public class AbstractDemo {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
-}
+//class Triangle extends Shape{
+//	protected double height;
+//	protected double width;
+//	
+//	public Triangle() {
+//		
+//	}
+//	
+//	
+//	
+//	public Triangle(double height, double width) {
+//		super();
+//		this.height = height;
+//		this.width = width;
+//	}
+//
+//
+//
+//	@Override
+//	void calculateArea() {
+//		double area=0.5*height*width;
+//		System.out.println("Area of traingle is:"+area);
+//		
+//		
+//	}
+//
+////	@Override
+////	void calculatePerimeter() {
+////		double peri=
+////		
+////	}
+////	
+////}
+//
+//public class AbstractDemo {
+//
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//
+//	}
+//
+//}

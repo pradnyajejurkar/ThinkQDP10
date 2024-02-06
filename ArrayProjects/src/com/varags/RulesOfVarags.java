@@ -24,6 +24,9 @@ public class RulesOfVarags {
 	}
 	
 	public static void main(String[] args) {
+     //display(12,3,"Pooja","Ritu");
+		
+		method(2,4,5,6,7,8);
 		
 	}
 

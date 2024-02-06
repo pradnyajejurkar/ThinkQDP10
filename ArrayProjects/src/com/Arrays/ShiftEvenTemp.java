@@ -6,9 +6,9 @@ import java.util.Arrays;
 public class ShiftEvenTemp {
 
 	public static void shiftEvenTemp(int[] arr) {
-	public static void shiftEvenTemp2(int[] arr) {
+	//public static void shiftEvenTemp2(int[] arr) {
 		int temp[] = new int[arr.length];
-		int index = 0, count = 0;
+		int index = 0; //count = 0;
 
 		for (int i = 0; i < arr.length; i++) {
 
@@ -17,10 +17,9 @@ public class ShiftEvenTemp {
 				temp[index] = arr[i];
 				index++;
 
-			} else {
-				arr[i] = arr[i];
-
+			
 			}
+			
 		}
 		
 	}
@@ -31,6 +30,9 @@ public class ShiftEvenTemp {
 		System.out.println(Arrays.toString(arr));
 
 		shiftEvenTemp(arr);
+		
+		System.out.println(Arrays.toString(arr));
+		
 
 	}
 

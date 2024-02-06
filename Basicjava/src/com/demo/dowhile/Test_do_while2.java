@@ -27,6 +27,10 @@ public class Test_do_while2 {
 		
 		System.out.println("Thank you");
 		System.out.println("End");
+		sc.close();
 	}
-
+	
 }
+	
+
+
