@@ -12,9 +12,9 @@ public class SortArray {
 			for(int j=i+1;j<arr.length/2;j++) {
 				
 			if(arr[i]<arr[j]) {
-			int temp=arr[i];
-			arr[i]=arr[j];
+			int temp=arr[j];
 			arr[j]=arr[i];
+			arr[i]=temp;
 			
 		}
 		}
@@ -24,6 +24,10 @@ public class SortArray {
 		int arr[]= {4,5,6,7,1,2,6,4,5,9,0};
 		
 		System.out.println(Arrays.toString(arr));
+		sortArray(arr);
+		System.out.println(Arrays.toString(arr));
+
+		
 	}
 
 }

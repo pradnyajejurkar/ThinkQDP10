@@ -1,4 +1,4 @@
-package com.wordslogical;
+package com.stringtask;
 
 import java.util.Arrays;
 

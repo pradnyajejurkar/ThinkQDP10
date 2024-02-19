@@ -35,10 +35,10 @@ public class ReverseArray {
 		System.out.println(Arrays.toString(arr));
 		reverseArray(arr);
 		
-		System.out.println("----------------------");
-		int arr1[]= {5,22,55,21,4,54,10};
-		System.out.println(Arrays.toString(arr1));
-		reverseArray(arr1);
+//		System.out.println("----------------------");
+//		int arr1[]= {5,22,55,21,4,54,10};
+//		System.out.println(Arrays.toString(arr1));
+//		reverseArray(arr1);
 	}
 }
 		

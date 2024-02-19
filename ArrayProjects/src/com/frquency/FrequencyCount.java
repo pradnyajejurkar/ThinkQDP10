@@ -27,8 +27,8 @@ public class FrequencyCount {
 						count++;
 				}
 
-				 //frequency
-				 System.out.println(ar[i]+"-->"+count);
+//				 //frequency
+//				 System.out.println(ar[i]+"-->"+count);
 
 				// duplicate
 //				if(count>1) {
@@ -36,8 +36,8 @@ public class FrequencyCount {
 //				}
 
 				// unique
-//				if (count == 1)
-//					System.out.println(ar[i]);
+			if (count == 1)
+				System.out.println(ar[i]);
 			}
 
 		}
