@@ -5,7 +5,7 @@ public class Movie {
 	
 	    private int movieId;
 	    private String movieName;
-	    private String movieRating;
+	    private double movieRatings;
 	    private Character1 character;
 
 	  
@@ -14,10 +14,10 @@ public class Movie {
 			// TODO Auto-generated constructor stub
 		}
 
-		public Movie(int movieId, String movieName, String movieRating, Character1 character) {
+		public Movie(int movieId, String movieName, double movieRatings, Character1 character) {
 	        this.movieId = movieId;
 	        this.movieName = movieName;
-	        this.movieRating = movieRating;
+	        this.movieRatings = movieRatings;
 	        this.character = character;
 	    }
 
@@ -38,12 +38,12 @@ public class Movie {
 			this.movieName = movieName;
 		}
 
-		public String getMovieRating() {
-			return movieRating;
+		public double getMovieRatings() {
+			return movieRatings;
 		}
 
-		public void setMovieRating(String movieRating) {
-			this.movieRating = movieRating;
+		public void setMovieRatings(double movieRatings) {
+			this.movieRatings = movieRatings;
 		}
 
 		public Character1 getCharacter() {
@@ -56,7 +56,7 @@ public class Movie {
 
 		@Override
 		public String toString() {
-			return "Movie [movieId=" + movieId + ", movieName=" + movieName + ", movieRating=" + movieRating
+			return "Movie [movieId=" + movieId + ", movieName=" + movieName + ", movieRatings=" + movieRatings
 					+ ", character=" + character + "]";
 		}
 

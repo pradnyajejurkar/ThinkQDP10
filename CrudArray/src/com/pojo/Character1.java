@@ -2,7 +2,9 @@ package com.pojo;
 
 public class Character1 {
 
-	    private int characterId;
+	   
+
+		private int characterId;
 	    private String characterName;
 	    private String profile;
 
@@ -43,6 +45,11 @@ public class Character1 {
 	}
 
 	    
+	 @Override
+		public String toString() {
+			return "Character1 [characterId=" + characterId + ", characterName=" + characterName + ", profile=" + profile
+					+ "]";
+		}
 	}
 
 

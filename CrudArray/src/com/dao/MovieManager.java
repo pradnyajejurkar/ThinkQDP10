@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 import com.pojo.Character1;
 import com.pojo.Movie;
+import com.pojo.MovieRatingComparator;
 
 public	class MovieManager implements MovieInfo {
 	Scanner sc=new Scanner(System.in);
@@ -26,7 +27,7 @@ public	class MovieManager implements MovieInfo {
 			System.out.println("Enter movie name:");
 			m.setMovieName(sc.next());
 			System.out.println("Enter movie Rating:");
-			m.setMovieRating(sc.next());
+			m.setMovieRatings(sc.nextDouble());
 			
 			Character1 c=new Character1();
 			System.out.println("Enter character id:");
@@ -77,7 +78,7 @@ public	class MovieManager implements MovieInfo {
 					case 3:
 					{
 						System.out.println("Enter New Rating:");
-						m.setMovieRating(sc.next());
+						m.setMovieRatings(sc.nextDouble());
 						break;
 					}
 					default:
@@ -220,6 +221,5 @@ public	class MovieManager implements MovieInfo {
 		System.out.println("-----------------------------------");
 		
 	}
-
 }
 	

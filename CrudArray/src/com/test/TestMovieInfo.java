@@ -23,9 +23,12 @@ public class TestMovieInfo {
 	             System.out.println("4. Search Movie");
 	             System.out.println("5. Show All Movies");
 	             System.out.println("6. Sort Movies by Rating");
-	             System.out.println("7. Exit");
+	             System.out.println("7.Book Movie");
+	             System.out.println("8. Exit");
+	             System.out.println("-----------------------------------");
+
 	             System.out.print("Enter your choice: ");
-	             int choice = sc.nextInt();
+	           //  int choice = sc.nextInt();
 	             switch(sc.nextInt()) {
 
 	 			case 1:
@@ -72,7 +75,7 @@ public class TestMovieInfo {
 	 					System.out.println("List is Empty!");
 	 				}else {
 	 					for(Movie m:m1.showMovies()) {
-	 						System.out.println("Movie Name:"+m.getMovieName()+", "+"Rating: "+m.getMovieRating());
+	 						System.out.println("Movie Name:"+m.getMovieName()+", "+"Rating: "+m.getMovieRatings());
 	 					}
 	 				}
 	 				System.out.println("-----------------------------------");

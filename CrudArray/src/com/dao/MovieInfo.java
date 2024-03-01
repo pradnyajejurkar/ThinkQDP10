@@ -11,8 +11,9 @@ public interface MovieInfo {
 	    void deleteMovie();
 	    void searchMovie();
 	    List<Movie> showMovies();
-	    List<Movie> sortMovieRating();
+	    
 	    void bookMovie();
+		List<Movie> sortMovieRatings();
 	}
 
 
